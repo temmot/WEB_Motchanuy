@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Атрибут "target" та його значення</title>
+</head>
+
+<body>
+
+	<h1>Атрибут &lt;target&gt;</h1>
+	<p>За замовчуванням, при переході за посиланням документ відкривається в поточній вкладці браузера. Цю поведінку можна змінити за допомогою атрибута <b>target</b> елементу &lt;a&gt; . Як значення використовується ім'я фрейма, задане атрибутом <b>name</b> елемента &lt;iframe&gt; , або зарезервоване ключове слово. У назві фрейму посилання буде відкриватися у фреймі.</p>
+	<br>
+
+	<h2>Синтаксис</h2>
+	<p>&lt;a href="#" target="..."&gt;...&lt;/a&gt;</p>
+	<br>
+
+	<h2>Значення</h2>
+
+	<table border="1px">
+
+		<tr>
+			<th>Значення</th>
+			<th>Пояснення</th>
+		</tr>
+
+		<tr>
+			<td><b>_blank</b></td>
+			<td>Завантажує сторінку в нову вкладку браузера.</td>
+		</tr>
+
+
+
+		<tr>
+			<td><b>_self</b></td>
+			<td>Завантажує сторінку в поточну вкладку. Також являється значенням по замовчуванню.</td>
+		</tr>
+
+		<tr>
+			<td><b>_parent</b></td>
+			<td>Завантажує сторінку у фрейм-батько; якщо фреймів немає, то це значення працює як <b>_self</b>.</td>
+		</tr>
+
+		<tr>
+			<td><b>_top</b></td>
+			<td>Скасовує всі фрейми і завантажує сторінку в повному вікні браузера; якщо фреймів немає, то це значення працює як <b>_self</b>.</td>
+		</tr>
+
+	</table>
+
+	<h2>Браузери</h2>
+
+	<table border="1px">
+
+		<tr>
+			<th width="100px"><img src="https://pngicon.ru/file/uploads/IE.png" alt="img" alt="img" height="15px" width="15px"> Internet Explore</th>
+			<th width="100px"><img src="https://img.icons8.com/dusk/64/000000/chrome.png" alt="img" height="15px" width="15px"> Chrome</th>
+			<th width="100px"><img src="https://img.icons8.com/metro/26/000000/opera.png" alt="img" height="15px" width="15px"> Opera</th>
+			<th width="100px"><img src="https://img.icons8.com/metro/26/000000/safari.png" alt="img" height="15px" width="15px"> Safari</th>
+			<th width="100px"><img src="https://pngicon.ru/file/uploads/firefox.png" alt="img" height="15px" width="15px"> Firefox</th>
+			<th width="100px"><img src="https://pngicon.ru/file/uploads/android-1-128x128.png" alt="img" height="15px" width="15px"> Android</th>
+			<th width="100px"><img src="https://img.icons8.com/ios/50/000000/ios-app-icon-shape.png" alt="img" height="15px" width="15px"> iOS</th>
+		</tr>
+
+		<tr align="center">
+			<td><img src="https://v1.iconsearch.ru/uploads/icons/realistik-new/128x128/ok.png" alt="" height="15px" width="15px"></td>
+			<td><img src="https://v1.iconsearch.ru/uploads/icons/realistik-new/128x128/ok.png" alt="" height="15px" width="15px"></td>
+			<td><img src="https://v1.iconsearch.ru/uploads/icons/realistik-new/128x128/ok.png" alt="" height="15px" width="15px"></td>
+			<td><img src="https://v1.iconsearch.ru/uploads/icons/realistik-new/128x128/ok.png" alt="" height="15px" width="15px"></td>
+			<td><img src="https://v1.iconsearch.ru/uploads/icons/realistik-new/128x128/ok.png" alt="" height="15px" width="15px"></td>
+			<td><img src="https://v1.iconsearch.ru/uploads/icons/realistik-new/128x128/ok.png" alt="" height="15px" width="15px"></td>
+			<td><img src="https://v1.iconsearch.ru/uploads/icons/realistik-new/128x128/ok.png" alt="" height="15px" width="15px"></td>
+		</tr>
+
+	</table>
+	<br>
+
+	<h2>Приклад:</h2>
+
+	<p>&lt;!DOCTYPE html&gt;</p>
+	<p>&lt;html lang="en"&gt;</p>
+	<p>&lt;head&gt;</p>
+	<p style="text-indent: 20px">&lt;meta charset="UTF-8"&gt;</p>
+	<p style="text-indent: 20px">&lt;title>Document&lt;/title&gt;</p>
+	<p>&lt;/head&gt;</p>
+	<p>&lt;body&gt;</p>
+	<p style="text-indent: 20px">&lt;a href="page/new.html" target="_blank"&gt;Ссилка&lt;/a&gt;</p>
+	<p>&lt;/body&gt;</p>
+	<p>&lt;/html&gt;</p>
+
+
+	<p align="right">Автор курсант 261 н.г. <br>Мотчаний Артем Станіславович</p>
+
+
+
+
+</body>
+
+</html>
