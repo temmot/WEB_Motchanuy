@@ -1,0 +1,19 @@
+-git branch pz_1_3_1
+
+-git branch
+
+-git merge pz_1_3_1
+
+-git branch
+
+-git branch -D pz_1_3_1
+
+-git add .
+
+-git commit -m "third commit"
+
+-git status
+
+-type pz_1_3_1.txt
+
+-git push
