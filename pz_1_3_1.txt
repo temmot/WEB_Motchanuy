@@ -1,0 +1,19 @@
+-git clone https://github.com/temmot/Motchanuy_WEB.git (клонуємо глобальний репозиторій на локальний ) 
+
+-git add . (добавляємо файли для відстеження git)
+
+-git commit -m "first commit"(робимо комміт з назвою)
+
+-git status (визначаємо стан файлів)
+
+-type numbPIB.txt (в cmd дивимося вміст файлів)
+
+-git push (відправляємо на глобальний репозиторій)
+
+-git add . (добавляємо файли для відстеження git)
+
+-git commit -m "second commit" (робимо комміт з назвою)
+
+-git status (визначаємо стан файлів)
+
+-git push (відправляємо на глобальний репозиторій)
