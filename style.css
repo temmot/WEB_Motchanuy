@@ -1,0 +1,120 @@
+body {
+	background-color: #C0C0C0;
+}
+
+p {
+	text-indent: 20px;
+	margin-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: green;
+}
+
+a:hover {
+	color: red;
+}
+
+h1 {
+	text-align: center;
+	color: blue
+}
+
+h2 {
+	text-align: center;
+	font-size: 16px;
+}
+
+.icon {
+	height: 12px;
+	width: 12px;
+}
+
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+/*Index
+==================================================*/
+
+.main_page {
+	text-align: center;
+}
+
+/*Book,Film
+=================================================*/
+
+.desc {
+	text-align: right;
+	font-style: italic;
+}
+
+._inner {
+	border-bottom: 3px solid blue;
+	height: 300px;
+}
+
+._img {
+	margin-right: 10px;
+	float: left;
+	width: 155px;
+	height: 250px;
+}
+
+._inf {
+	padding-top: 5px;
+}
+
+._inf span {
+	font-weight: bold;
+}
+
+/*Hend Book
+===========================================================*/
+
+table,
+th,
+tr,
+td {
+	border: 1px solid;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table p {
+	text-align: left;
+}
+
+/*Favorite Film
+==============================================================*/
+
+.scrin {
+	padding-top: 100px;
+	width: 700px;
+	height: 540px;
+	margin: auto;
+}
+
+.blok {
+	width: 100%;
+	height: 50%;
+	display: flex;
+}
+
+.film_scrin {
+	width: 50%;
+	height: 100%;
+}
+
+.img_scrin {
+	height: 240px;
+	width: 320px;
+}
+
+.trailer {
+	width: 100%;
+	height: 100%;
+}
